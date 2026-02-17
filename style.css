@@ -592,7 +592,7 @@ i.fa-bars {
 
 
 #popular-products .special-offer {
-    background-image: url(/Images/imgi_418_Banner.png);
+    background-image: url(Images/imgi_418_Banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -651,7 +651,7 @@ i.fa-bars {
 /* _________________________________________START SALES_____________________________________________ */
 
 #sales {
-    background-image: url(/Images/imgi_420_sale-banner_1920x.png);
+    background-image: url(Images/imgi_420_sale-banner_1920x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -701,7 +701,7 @@ i.fa-bars {
 
 
 #sales2 {
-    background-image: url(/Images/imgi_420_sale-banner_1920x.png);
+    background-image: url(Images/imgi_420_sale-banner_1920x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
