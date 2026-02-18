@@ -2,7 +2,7 @@ body {
     background-color: #EAEAEC;
 }
 
-section{
+section {
     overflow: hidden;
 }
 
@@ -189,7 +189,7 @@ i.fa-bars {
 
 #landing {
     padding-top: 40px;
-    background-color: #FDFDFD;
+    background-color: white;
     /* height: 500px; */
 }
 
@@ -338,23 +338,23 @@ i.fa-bars {
 
 @media screen and (max-width:460px) {
 
-#landing .landing-smalls .landing-small-1 span,
-#landing .landing-smalls .landing-small-2 span {
-    position: absolute;
-    top: 24%;
-    left: 5%;
-    font-size: 16px;
-    font-weight: 500;
+    #landing .landing-smalls .landing-small-1 span,
+    #landing .landing-smalls .landing-small-2 span {
+        position: absolute;
+        top: 24%;
+        left: 5%;
+        font-size: 16px;
+        font-weight: 500;
 
-}
+    }
 
-#landing .landing-smalls .landing-small-1 p,
-#landing .landing-smalls .landing-small-2 p {
-    position: absolute;
-    font-size: 11px;
-    top: 60%;
-    left: 5%;
-}
+    #landing .landing-smalls .landing-small-1 p,
+    #landing .landing-smalls .landing-small-2 p {
+        position: absolute;
+        font-size: 11px;
+        top: 60%;
+        left: 5%;
+    }
 
 }
 
@@ -590,13 +590,13 @@ i.fa-bars {
     align-items: center;
     color: black;
     font-weight: 900;
-    
+
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: all 0.3s;
-    
-    
-    
-    
+
+
+
+
 }
 
 #popular-products .pro-card .features i:hover {
@@ -626,7 +626,7 @@ i.fa-bars {
     text-decoration: none;
     color: black;
     transition: all 0.5s;
-   /* margin-left: 30px; */
+    /* margin-left: 30px; */
 
 
 }
@@ -642,10 +642,10 @@ i.fa-bars {
 
 @media screen and (max-width:375px) {
     #popular-products .popular-products-header a {
-   font-size: 13px;
+        font-size: 13px;
 
-}
-    
+    }
+
 }
 
 /* _________________________________________END RECOMMENDED-PRODUCTS_____________________________________________ */
@@ -735,7 +735,7 @@ i.fa-bars {
 
 @media screen and (min-width:767px) and (max-width:992px) {
 
-     #popular-products .special-offer-container .special-offer {
+    #popular-products .special-offer-container .special-offer {
         width: 50%;
     }
 
@@ -745,9 +745,10 @@ i.fa-bars {
 
 
 }
+
 @media screen and (min-width:992px) and (max-width:1200px) {
 
-     #popular-products .special-offer-container .special-offer {
+    #popular-products .special-offer-container .special-offer {
         width: calc(33%);
     }
 
@@ -885,20 +886,21 @@ i.fa-bars {
     }
 
 }
+
 @media screen and (max-width:440px) {
 
-/* #sales2 .sales2-info a {
+    /* #sales2 .sales2-info a {
  
     padding: 14px 45px;
     
 } */
- #sales2{
-    padding: 20px 50px;
- }
+    #sales2 {
+        padding: 20px 50px;
+    }
 
- #sales2 img {
-   scale: 0.72;
-}
+    #sales2 img {
+        scale: 0.72;
+    }
 }
 
 
@@ -910,7 +912,7 @@ i.fa-bars {
 /* _________________________________________START PRO-NAV_____________________________________________ */
 
 #pro-nav {
-    background-color: #fdfdfd;
+    background-color: white;
     padding: 40px 0px 10px 0px;
     display: flex;
 }
@@ -927,6 +929,7 @@ i.fa-bars {
     margin-bottom: 19px;
     overflow: hidden;
     cursor: pointer;
+
 }
 
 #pro-nav .pro-nav-card .pro-nav-card-image img {
@@ -1074,9 +1077,9 @@ i.fa-bars {
 
 @media screen and (max-width:400px) {
     #posts .posts-header a {
-   font-size: 12px;
+        font-size: 12px;
 
-}
+    }
 }
 
 
