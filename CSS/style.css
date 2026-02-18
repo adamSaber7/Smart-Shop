@@ -57,7 +57,7 @@ header {
 
 .head-bottom {
     padding: 10px 0;
-    background-color: #FAFAFA;
+    background-color: white;
 
 }
 
@@ -221,7 +221,7 @@ i.fa-bars {
     margin: 30px auto;
     text-decoration: none;
     color: black;
-    background-color: #FAFAFA;
+    background-color: white;
     padding: 12px 33px;
     border-radius: 7px;
     font-weight: 500;
@@ -231,7 +231,7 @@ i.fa-bars {
 
 #landing .landing-big .carousel-item a:hover {
     background-color: black;
-    color: #FAFAFA;
+    color: white;
 }
 
 #landing .landing-big .carousel-item span {
@@ -251,7 +251,7 @@ i.fa-bars {
 
 #landing .landing-big .carousel-item span:nth-child(4),
 #landing .landing-big .carousel-item h2:nth-child(3) {
-    color: #FAFAFA;
+    color: white;
 
 
 
@@ -273,7 +273,7 @@ i.fa-bars {
 #landing .landing-smalls .landing-small-2 {
     width: 100%;
     position: relative;
-    color: #FAFAFA;
+    color: white;
 
 }
 
@@ -378,7 +378,7 @@ i.fa-bars {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FAFAFA;
+    background-color: white;
     padding: 7px 25px;
     border-radius: 7px;
 
@@ -421,7 +421,7 @@ i.fa-bars {
 }
 
 #popular-products .pro-card {
-    background-color: #FAFAFA;
+    background-color: white;
     padding: 13px;
     border-radius: 7px;
     position: relative;
@@ -439,6 +439,8 @@ i.fa-bars {
     align-items: center;
     aspect-ratio: 4 / 5;
     /* transition: all 0.5s; */
+    /* background-color: white; */
+    border-radius: 8px;
 }
 
 #popular-products .pro-card .pro-card-image img:nth-child(1) {
@@ -551,8 +553,9 @@ i.fa-bars {
 
 #popular-products .pro-card .discount span {
     position: absolute;
-    top: 10px;
-    color: #FAFAFA;
+    top: 18px;
+    left: 17px;
+    color: white;
     padding: 2px 13px;
     background-color: #DD3842;
     border-radius: 20px;
@@ -573,7 +576,7 @@ i.fa-bars {
 
 
 #popular-products .pro-card .features i {
-    background-color: #FAFAFA;
+    background-color: white;
     margin-bottom: 8px;
     opacity: 0.7;
     border-radius: 5px;
@@ -586,13 +589,25 @@ i.fa-bars {
     justify-content: center;
     align-items: center;
     color: black;
-
+    font-weight: 900;
+    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
-
-
+    transition: all 0.3s;
+    
+    
+    
+    
 }
+
+#popular-products .pro-card .features i:hover {
+    color: #006937;
+    transform: scale(1.09);
+}
+
+#popular-products .pro-card .features a:nth-child(1) i:hover {
+    color: red;
+}
+
 
 #popular-products .pro-card:hover {
     .features {
@@ -611,7 +626,7 @@ i.fa-bars {
     text-decoration: none;
     color: black;
     transition: all 0.5s;
-   margin-left: 30px;
+   /* margin-left: 30px; */
 
 
 }
@@ -960,7 +975,7 @@ i.fa-bars {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FAFAFA;
+    background-color: white;
     padding: 7px 25px;
     border-radius: 7px;
 
@@ -988,7 +1003,7 @@ i.fa-bars {
 }
 
 #posts .posts-card {
-    background-color: #FAFAFA;
+    background-color: white;
     border-radius: 9px;
     overflow: hidden;
 }
@@ -1074,7 +1089,7 @@ i.fa-bars {
 #prands {
     padding: 50px 0px;
     margin-top: 30px;
-    background-color: #FAFAFA;
+    background-color: white;
 }
 
 #prands .prands-image {
@@ -1106,7 +1121,7 @@ i.fa-bars {
 /* _________________________________________START FOOTER_____________________________________________ */
 
 #footer {
-    background-color: #FAFAFA;
+    background-color: white;
     padding: 40px 0px;
 }
 
@@ -1167,7 +1182,7 @@ i.fa-bars {
 
 #footer .footer-1 .footer-1-icons a i:hover {
     background-color: #006937;
-    color: #FAFAFA;
+    color: white;
 }
 
 
@@ -1300,7 +1315,7 @@ i.fa-bars {
 
 #footer .footer-form i:hover {
     background-color: #006937;
-    color: #FAFAFA;
+    color: white;
 }
 
 
